@@ -37,7 +37,7 @@ size_t levenshtein(const string& lhs, const string& rhs) {
 edit_t edit_distances(sound_t::const_iterator begin,
                       sound_t::const_iterator end, const string& word) {
   edit_t lev;
-  lev.reserve(distance(begin, end));
+  lev.reserve(static_cast<size_t>(distance(begin, end)));
   for (auto it = begin; it != end; ++it) {
     lev.emplace(it->second, levenshtein(word, it->second));
   }
