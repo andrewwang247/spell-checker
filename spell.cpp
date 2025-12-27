@@ -1,7 +1,7 @@
 /*
 Spell check words provided to stdin.
 
-Copyright 2021. Siwei Wang.
+Copyright 2026. Andrew Wang.
 */
 #include <algorithm>
 #include <cctype>

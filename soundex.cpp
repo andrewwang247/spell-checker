@@ -2,7 +2,7 @@
 Compute soundex of given strings.
 See https://en.wikipedia.org/wiki/Soundex
 
-Copyright 2021. Siwei Wang.
+Copyright 2026. Andrew Wang.
 */
 #include "soundex.h"
 #include <algorithm>

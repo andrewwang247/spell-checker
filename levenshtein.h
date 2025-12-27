@@ -2,7 +2,7 @@
 Compute Levenshtein distance between 2 strings.
 See https://en.wikipedia.org/wiki/Levenshtein_distance
 
-Copyright 2021. Siwei Wang.
+Copyright 2026. Andrew Wang.
 */
 #pragma once
 #include <string>
